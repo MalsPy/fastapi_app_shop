@@ -1,6 +1,7 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, status
 from typing import Annotated, List
 from uuid import UUID
+from uuid import uuid4
 
 from app.schemas import ProductSchemas, ProductCreate
 from app.fake_db import (
@@ -12,7 +13,7 @@ from app.fake_db import (
     delete_product_by_id,
 )
 
-router = APIRouter(prefix="/product", tags=["Products 📦"])
+router = APIRouter(prefix="/products", tags=["Products 📦"])
 
 
 @router.get("/get_all", response_model=List[ProductSchemas])
@@ -26,13 +27,14 @@ async def get_product_all(
 async def get_product_id(id: UUID):
     product = await get_fake_db_id(id)
     if not product:
-        raise HTTPException(status_code=404, detail="Product not found")
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="Product not found"
+        )
     return product
 
 
 @router.post("/post", response_model=ProductSchemas)
 async def post_product(add_product: ProductCreate):
-    from uuid import uuid4
 
     product = ProductSchemas(id=uuid4(), **add_product.model_dump())
     await add_new_product(product)
