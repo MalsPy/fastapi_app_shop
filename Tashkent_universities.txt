@@ -1,0 +1,29 @@
+TUIT (Ташкентский Университет Информационных Технологий):
+  Link: https://tuit.uz/
+  Direction: Экономика, Инфор. системы и технологии, Инфор. безопасность, Комп. инженерия, Прог. инженери и т.д
+  Link to direction: https://tuit.uz/ru/malaka-talablari-bakalavr
+
+---
+IUT (Университет Инха в Ташкенте):
+  Link: https://inha.uz/ru/glavnaya/
+  Directio: SOCIE > ICE, SOCIE > CSE, SBL > Business Administration, SBL > Logistics Management
+    SOCIE является факультетом, а ICE - отделом внутри этого факультета, который готовит специалистов по информационно-коммуникационной инженерии
+    CSE - это Department of Computer Science and Software Engineering (Департамент компьютерных наук и разработки программного обеспечения) в рамках SOCIE
+  Link to direction: https://inha.uz/ru/studentam/uchebnyy-plan/
+  
+---
+IT Park University:
+  Link: https://itpu.uz/ru/bachelor
+  Direction: Программная инженерия, Кибербезопасность
+  Link to directions: https://itpu.uz/ru/bachelor#submenu:bachelor
+
+---
+WIUT (Международный Вестминстерский университет в Ташкенте):
+  Link: https://www.wiut.uz/parents-top-rus
+  Direction: BSc (Hons) in Computer Science
+  Link: https://www.wiut.uz/bsc-hons-in-computer-science
+
+
+
+
+Моё мнение: Самый лучший вариант это IT Park University, они работают вместе с EPAM (Международная оутсерф компания с реальным стажем ). Но там Довольно дорого учиться. 
