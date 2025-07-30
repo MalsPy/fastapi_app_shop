@@ -1,12 +1,9 @@
-from sqlalchemy import False_, select
+from sqlalchemy import select
 from uuid import UUID, uuid4
 
-from sqlalchemy.engine import result
-from sqlalchemy.orm import session
 from app.db.models import Product, Base
 from app.db.database import async_engine, async_session_factory
 from app.db.models import Product
-from app.fake_db import delete_product_by_id
 from app.schemas import ProductCreate
 
 
